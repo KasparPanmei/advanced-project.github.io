@@ -1,0 +1,321 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Fuzzy Bubbles', cursive;
+    scroll-behavior: smooth;
+}
+/* rgb(0, 78, 88) */
+header
+{
+    background-color:rgb(2, 78, 84);
+    height: 80vh;
+}
+.container-fluid a
+{
+    color: white;
+    margin: 10px 0px 0px 10px;
+    font-size: 30px;
+    text-shadow: 1px 1px 5px white;
+}
+.navbar-nav .nav-item a
+{
+    color: white;
+    margin: 10px 0px 0px 50px;
+    font-size: 15px;
+    text-shadow: none;
+    text-rendering: optimizeSpeed;
+}
+.navbar-toggler-icon
+{
+    background-color: white;
+    padding: 10px;
+    box-shadow: 2px 5px 5px whitesmoke;
+    border-radius: 5px;
+}
+.list-style li 
+{
+    list-style: none;
+}
+.list-style li a
+{
+    font-size: 15px;
+    margin: 10px 100px 0px 0px;
+    border: 1px solid white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 30px;
+    text-shadow: none;
+    box-shadow: 2px 5px 10px white;
+}
+.list-style li a:hover
+{
+    color: white;
+    transition: 1s 0.5s ease-in-out all;
+    transform: rotate(360deg);
+    background-color: rgb(34, 72, 105);
+}
+.navbar-nav .nav-item a:hover
+{
+    transform: scale(1.1);
+}
+.f-view-flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 150px;
+}
+.some-paragraphs
+{
+    width: 400px;
+}
+.some-paragraphs .width
+{
+    width: 50px;
+    height: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 242, 255);
+}
+.some-paragraphs p
+{
+    margin-top: 30px;
+    color: white;
+    text-align: justify;
+}
+.head h3
+{
+    font-size: 60px;
+    color: white;
+}
+.head span
+{
+    color: rgb(244, 128, 129);
+}
+/* s-view */
+.s-view
+{
+    background-color:rgb(0, 65, 71);
+    padding: 50px;
+}
+.heading h3
+{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.grid-images
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.grid-images img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    left: 40px;
+}
+.grid-images .img
+{
+    border: 1px solid rgb(2, 46, 52)eal;
+    border-radius: 2px;
+    box-shadow: 2px 2px 10px black;
+    padding: 40px;
+    margin-top: 20px;
+    background-color: rgb(2, 46, 52);
+}
+.grid-images .img p
+{
+    margin-top: 15px;
+    color: white;
+    line-height: 10px;
+    text-align: center;
+    font-size: 13px;
+}
+/* grid-images2 */
+.grid-images2
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.grid-images2 img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    left: 40px;
+}
+.grid-images2 .img
+{
+    border: 1px solid rgb(2, 46, 52)eal;
+    border-radius: 2px;
+    box-shadow: 2px 2px 10px black;
+    padding: 40px;
+    margin-top: 20px;
+    background-color: rgb(2, 46, 52);
+}
+.grid-images2 .img p
+{
+    margin-top: 15px;
+    color: white;
+    line-height: 10px;
+    text-align: center;
+    font-size: 13px;
+}
+/* id's */
+#themi img
+{
+    position: relative;
+    left: 10px;
+}
+#kaspar img 
+{
+    position: relative;
+    left: 20px;
+}
+#rajiandai img 
+{
+    position: relative;
+    left: 20px;
+}
+#duan img
+{
+    position: relative;
+    left: 10px;
+}
+#deborah
+{
+    padding: 50px;
+}
+#deborah img
+{
+    position: relative;
+    left: 0px;
+}
+#lum img
+{
+    position: relative;
+    left: 10px;
+}
+/* t-view */
+.t-view
+{
+    background-color: rgb(2, 46, 52);
+    padding: 50px;
+}
+.t-view-section .clients
+{
+    display: flex;
+    flex-wrap: wrap;
+    color: crimson;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+/* started */
+.started
+{
+    background-color: rgb(232, 118, 121);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+}
+.heading-fourth-view h3
+{
+    color: rgb(18, 41, 42);
+    font-size: 40px;
+}
+.contact-us-links a
+{
+    text-decoration: none;
+    color: rgb(18, 41, 42);
+    border: 2px solid  rgb(18, 41, 42);
+    padding: 8px;
+    font-size: 13px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.contact-us-links a:hover
+{
+    color: rgb(18, 41, 42);
+}
+/* footer */
+.bg-color
+{
+    background-color: rgb(1, 37, 41);
+    padding: 50px;
+}
+.footer-cols
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.f-footer-cols h3
+{
+    color: white;
+}
+.f-footer-cols a
+{
+    color: white;
+    text-decoration: none;
+    line-height: 20px;
+}
+.s-footer-cols p
+{
+    color: white;
+}
+.s-footer-cols p a
+{
+    color: rgb(88, 108, 163);
+    text-decoration: none;
+}
+.social-links-footer img
+{
+    width: 25px;
+    margin: 10px;
+}
+.social-links-footer p
+{
+    margin-top: 60px;
+    color: white;
+}
+/* media query */
+@media (max-width:732.98px) 
+{
+    .footer-cols
+    {
+        display: block;
+    }
+}
+@media (max-width:578.98px)
+{
+    .grid-images,.grid-images2
+    {
+        display: block;
+    }
+}
+@media (max-width:401.98px)
+{
+    .some-paragraphs .width
+    {
+        margin-left: 30px;
+    }
+    .some-paragraphs p
+    {
+        margin: 0px 30px 0px 30px;
+        font-size: 13px;
+    }
+}

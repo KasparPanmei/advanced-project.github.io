@@ -1,0 +1,375 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Fuzzy Bubbles', cursive;
+    scroll-behavior: smooth;
+}
+/* rgb(0, 78, 88) */
+header
+{
+    background-color: rgb(0, 78, 88);
+    height: 80vh;
+}
+.container-fluid a
+{
+    color: white;
+    margin: 10px 0px 0px 10px;
+    font-size: 30px;
+    text-shadow: 1px 1px 5px white;
+}
+.navbar-nav .nav-item a
+{
+    color: white;
+    margin: 10px 0px 0px 50px;
+    font-size: 15px;
+    text-shadow: none;
+    text-rendering: optimizeSpeed;
+}
+.navbar-toggler-icon
+{
+    background-color: white;
+    padding: 10px;
+    box-shadow: 2px 5px 5px whitesmoke;
+    border-radius: 5px;
+}
+.list-style li 
+{
+    list-style: none;
+}
+.list-style li a
+{
+    font-size: 15px;
+    margin: 10px 100px 0px 0px;
+    border: 1px solid white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 30px;
+    text-shadow: none;
+    box-shadow: 2px 5px 10px white;
+}
+.list-style li a:hover
+{
+    color: white;
+    transition: 1s 0.5s ease-in-out all;
+    transform: rotate(360deg);
+    background-color: rgb(34, 72, 105);
+}
+.navbar-nav .nav-item a:hover
+{
+    transform: scale(1.1);
+}
+/* article */
+.f-view-flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 150px;
+}
+.some-paragraphs
+{
+    width: 400px;
+}
+.some-paragraphs .width
+{
+    width: 50px;
+    height: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 242, 255);
+}
+.some-paragraphs p
+{
+    margin-top: 30px;
+    color: white;
+    text-align: justify;
+}
+.head h3
+{
+    font-size: 60px;
+    color: white;
+}
+.head span
+{
+    color: rgb(244, 128, 129);
+}
+.s-section
+{
+    background-color: rgb(3, 46, 52);
+}
+.s-view-flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.heading h3,p,svg
+{
+    color: white;
+}
+.heading .width2
+{
+    width: 50px;
+    height: 5px;
+    border-radius: 5px;
+    color: white;
+    background: rgb(212, 151, 154);
+    z-index: initial;
+    margin-bottom: 50px;
+}
+.s-s-view-flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.provides
+{
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+.icons svg
+{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 5px 8px 10px inset rgb(74, 172, 179);
+    /* box-shadow: 5px 10px 5px; */
+}
+.icons-heading
+{
+    margin-top: 10px;
+}
+.icons-heading p span
+{
+    color: rgb(168, 70, 81);
+    margin: 0px 0px 0px 10px;
+}
+.icons-paragraph p
+{
+    font-size: 13px;
+    margin-left: 60px;
+    line-height: 10px;
+}
+/* t-section */
+.t-section
+{
+    background-color:rgb(1, 61, 68);
+    text-align: center;
+    padding: 70px;
+}
+.t-section .t-view-heading h3
+{
+    font-size: 40px;
+    color: white;
+}
+.t-section .t-view-heading h3 span
+{
+    color:rgb(33, 238, 249) ;
+}
+.profiles-contents
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 80px;
+}
+.profiles-contents img
+{
+    width: 80px;
+    height: 80px;
+    border: 1px solid;
+    border-radius: 60%;
+}
+.profiles-contents p 
+{
+    font-size: 15px;
+    line-height: 10px;
+}
+.profiles-contents p span
+{
+   color: rgb(138, 207, 211);
+   font-size: 20px;
+   font-weight: bolder;
+}
+.profile-names p
+{
+    margin-top: 50px;
+    line-height: 1px;
+}
+.started
+{
+    background-color: rgb(232, 118, 121);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+}
+.heading-fourth-view h3
+{
+    color: rgb(18, 41, 42);
+    font-size: 40px;
+}
+.contact-us-links a
+{
+    text-decoration: none;
+    color: rgb(18, 41, 42);
+    border: 2px solid  rgb(18, 41, 42);
+    padding: 8px;
+    font-size: 13px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.contact-us-links a:hover
+{
+    color: rgb(18, 41, 42);
+}
+.bg-color
+{
+    background-color: rgb(1, 37, 41);
+    padding: 50px;
+}
+.footer-cols
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.f-footer-cols h3
+{
+    color: white;
+}
+.f-footer-cols a
+{
+    color: white;
+    text-decoration: none;
+    line-height: 20px;
+}
+.s-footer-cols p a
+{
+    color: rgb(88, 108, 163);
+    text-decoration: none;
+}
+.social-links-footer img
+{
+    width: 25px;
+    margin: 10px;
+}
+.social-links-footer p
+{
+    margin-top: 60px;
+}
+/* media query */
+@media (max-width:756.98px) 
+{
+    .head h3
+    {
+        font-size: 40px;
+    }
+    .some-paragraphs p
+    {
+        font-size: 12px;
+    }
+    .profiles-contents img
+    {
+        margin-bottom: 50px;
+    }
+    .footer-cols
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .f-footer-cols h3
+    {
+        font-size: 12px;
+    }
+    .s-footer-cols p 
+    {
+       font-size: 12px;
+    }
+    .footer-right-cols p 
+    {
+        font-size: 12px;
+    }
+}
+@media (max-width:542.98px)
+{
+    .footer-cols
+    {
+        display: block;
+    }
+}
+@media (max-width:398.98px)
+{
+    .some-paragraphs p
+    {
+        font-size: 12px;
+        margin: 0px 20px 0px 20px;
+    }
+    .some-paragraphs .width
+    {
+        margin-left: 20px;
+    }
+    .heading h3
+    {
+        font-size: 30px !important;
+    }
+    .heading .width2
+    {
+        margin-left: -40px;
+    }
+    .icons
+    {
+        margin: 0px 30px 0px 30px;
+    }
+    .icons svg
+    {
+        width: 25px !important;
+        height: 25px !important;
+        padding: 0%;
+    }
+    .icons-heading
+    {
+        margin-top: 0px;
+    }
+    .icons-heading p span
+    {
+        margin: 0px 0px 0px -10px;
+    }
+    .icons-paragraph p
+    {
+        font-size: 13px;
+        margin-left: 60px;
+        line-height: 20px;
+    }
+    .profiles-contents p 
+    {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .started
+    {
+        display: block;
+    }
+}
+@media (max-width:355.98px)
+{
+    .heading .width2
+    {
+        margin-left: -20px;
+    }
+}
+@media (max-width:294.98px)
+{
+    .t-section .t-view-heading h3
+    {
+        font-size: 30px;
+    }
+}
